@@ -1,0 +1,54 @@
+
+/* dar import de uma fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Typography is the way that text
+is arranged and presented. */
+
+
+body{
+    padding: 10%;
+    font-size: 2rem; 
+   /*  font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto', sans-serif; 
+    
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif; */
+   /*  font default do site e de 16px
+    entao se alterar para 2rem ele pega 
+    nesses de 16px que tem como referencia
+    e multiplica por 2 = 32px */
+    
+    
+}
+/* input,button{ para alterar o tamanho do input
+                e o do botao para o tamanho do body
+    font:inherit;
+} */
+
+p{
+/*     text-decoration: none; para tirar a linha de baixo
+                                dos links
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through; */
+   /*  text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase; */
+  /*   text-align: left;
+    text-align: justify;
+    text-align: right; */
+    /* text-indent: 2em; */
+    line-height: 1.5;
+    /* letter-spacing: 0.1em;
+    word-spacing: 0.1em; */
+    /* font-weight: 100; */
+   /*  font-style: italic;
+    font-style: oblique;
+    font-style: normal; */
+} 
